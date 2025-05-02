@@ -3382,7 +3382,14 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   color:var(--secundary-color);
 }
 
-
+ @media (max-width: 1042px) {
+   #home h1 {
+        font-size: 7rem !important;
+    }
+       #home .wrapper {
+         font-size: 7rem !important;
+       }
+ }
 
 
 /*===== RESPONSIVO (DESKTOP) ====================================*/
@@ -3563,13 +3570,17 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "A B";
+    font-size: 8rem !important;
   }
   #home .col-a {
     text-align: left;
     align-self: center;
   }
   #home h1 {
-    font-size: 9rem!important;
+    font-size: 7rem!important;
+  }
+  #home .wrapper {
+    font-size: 6rem !important;
   }
   #home .content p {
     font-size: 2.5rem;
@@ -3676,10 +3687,16 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 
- @media (max-width: 1200px) {
+ @media (max-width: 1199px) {
                 #home h1 {
-                font-size: 2rem; /* Tamanho reduzido para telas médias */
+                font-size: 9rem!important; /* Tamanho reduzido para telas médias */
             }
+      #home .wrapper {
+         font-sie:9rem!important;
+       }
+   #home p {
+         margin-left: 5rem;
+   }
         }
 
 @media (max-width: 1023px) {
