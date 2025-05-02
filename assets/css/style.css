@@ -3383,6 +3383,9 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 
+@media (min-width: 1237px) {
+        font-size: 3rem !important;
+}
 
 /*===== RESPONSIVO (DESKTOP) ====================================*/
 @media (min-width: 1024px) {
@@ -3568,7 +3571,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     align-self: center;
   }
   #home h1 {
-    font-size: 8rem!important;
+    font-size: 10rem!important;
   }
   #home .content p {
     font-size: 2.5rem;
