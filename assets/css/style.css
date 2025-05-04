@@ -3730,7 +3730,8 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
   }
 
-@media (min-width: 970px) {
+@media (max-width: 991px) {
+   
 #bax{
   margin-top: 10rem !important;
   position: absolute;
@@ -3750,7 +3751,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   margin-top: -26rem;
   font-size: 5rem !important;
 }}
-  
+}
 @media (max-width: 500px) {
   /*===== GERAL ==================================*/
   section h4 {
