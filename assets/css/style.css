@@ -3392,6 +3392,35 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
  }
 
 
+
+@media (max-width: 992px) {
+#home img {
+  position: absolute;
+}
+  .hero-banner{
+    margin-left: 56rem;
+        margin-top: -15rem;
+  }
+  #home h1 {
+        font-size: 6rem !important;
+    }
+      #home p {
+        margin-left: -12rem;
+    }
+}
+@media (max-width: 1024px) {
+    #home p {
+        margin-left: -4rem;
+    }
+}
+
+
+
+@media (max-width: 1042px) {
+    #home h1 {
+        font-size: 7rem !important;
+    }
+}
 /*===== RESPONSIVO (DESKTOP) ====================================*/
 @media (min-width: 1024px) {
   /*===== GERAL =======================================*/
