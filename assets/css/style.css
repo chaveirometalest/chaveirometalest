@@ -569,7 +569,7 @@ height: 11rem!important;
 }
 
 }
-@media (max-width: 1023px) {
+@media (min-width: 1023px) {
   #assinatura{
     margin-left: 0rem;
     margin-top: -1rem!important;
