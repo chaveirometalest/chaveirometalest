@@ -1533,10 +1533,10 @@ background: url("./assets/images/footer-bg.jpg");
  * responsive for large than 992px screen
  */
 
-@media (min-width: 991px) {
+@media (min-width: 991px!important) {
 
   #home img {
-  position: absolute;
+  position: absolute!important;
 }
   .hero-banner {
         margin-left: 56rem !important;
@@ -4769,6 +4769,13 @@ body {
 
 .escr{
   color: var(--secundary-color);
+}
+
+@media (min-width: 1091px) {
+  #home p {
+margin-left: auto;
+  }
+
 }
 
 @media (max-width: 377px) {
