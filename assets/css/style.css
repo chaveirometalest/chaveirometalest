@@ -3397,7 +3397,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 #home img {
   position: absolute;
 }
-  .hero-banner{
+  #bax{
     margin-left: 56rem;
         margin-top: -15rem;
   }
@@ -3408,6 +3408,8 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
         margin-left: -12rem;
     }
 }
+
+
 @media (max-width: 1024px) {
     #home p {
         margin-left: -4rem;
