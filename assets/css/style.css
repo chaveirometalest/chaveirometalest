@@ -3730,7 +3730,26 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
   }
 
-
+@media (max-width: 991px) {
+#bax{
+  margin-top: 10rem !important;
+  position: absolute;
+  margin-left: 30rem !important;
+}
+#zer{
+  font-size: 1.2rem!important;
+}
+.hero-banner{
+  margin-top: 4rem;
+  position: absolute;
+}
+#home img {
+  margin-left: -12rem!important;
+}
+#home h1 {
+  margin-top: -26rem;
+  font-size: 5rem !important;
+}}
   
 @media (max-width: 500px) {
   /*===== GERAL ==================================*/
