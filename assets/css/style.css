@@ -4517,9 +4517,8 @@ body {
         font-size: 27px;
         margin-left: 27rem !important;
     }
-    #home img {
-        display: inline-masonry!important;
-    }
+   .shape{
+     display: none;
   
 }
 }
