@@ -4513,7 +4513,7 @@ body {
  * responsive for larger than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
   /**
    * CUSTOM PROPERTY
