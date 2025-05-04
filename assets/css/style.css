@@ -4456,8 +4456,18 @@ body {
 
 @media (min-width: 768px) {
 
-  
-
+    #home h1 {
+        margin-top: -29rem;
+        font-size: 4rem !important;
+    }
+.h2 {
+    font-size: 3rem;
+    margin-left: 22rem;
+}
+     #zer {
+        font-size: 1.2rem !important;
+        margin-left: -11rem;
+    }
 
   /**
    * , BLOG
@@ -4469,6 +4479,15 @@ body {
     column-gap: 50px;
   }
 
+}
+
+@media (min-width: 710px) {
+    #zer{
+      max-width: 100%; /* Limita a largura máxima ao tamanho da tela */
+    overflow-wrap: break-word; /* Quebra palavras longas */
+    word-wrap: break-word; /* Compatibilidade com navegadores antigos */
+    white-space: normal; /* Permite que o texto quebre em várias linhas */
+    }
 }
 
 
