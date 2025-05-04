@@ -4517,11 +4517,13 @@ body {
         font-size: 27px;
         margin-left: 27rem !important;
     }
+}
+  @media (max-width: 511px) {
    .shape{
-     display: none;
+     display: none!important;
   
 }
-}
+
 
 }
 
