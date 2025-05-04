@@ -3887,6 +3887,23 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 
+@media (max-width: 335px) {
+    #home img {
+        margin-left: -34rem !important;
+    }
+      #home h1 {
+        margin-top: -26rem;
+        font-size: 2.5rem !important;
+    }
+      .hero .wrapper .strong {
+        font-size: 2.5rem !important;
+       
+    }
+      #home p {
+        font-size: 1rem !important;
+        margin-left: -15rem;
+    }
+}
 
 @media (max-width: 220px) {
   /*===== GERAL ==================================*/
