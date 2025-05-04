@@ -3397,9 +3397,9 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 #home img {
   position: absolute;
 }
-  #bax{
-    margin-left: 56rem;
-        margin-top: -15rem;
+  .hero-banner {
+        margin-left: 56rem !important;
+        margin-top: -15rem!important;
   }
   #home h1 {
         font-size: 6rem !important;
@@ -3412,7 +3412,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
 @media (max-width: 1024px) {
     #home p {
-        margin-left: -4rem;
+        margin-left: -4rem!important;
     }
 }
 
