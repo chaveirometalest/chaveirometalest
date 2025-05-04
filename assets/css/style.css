@@ -4523,8 +4523,14 @@ body {
      display: none!important;
   
 }
-
-
+        #home h1 {
+        margin-top: -26rem;
+        font-size: 3rem !important;
+    }
+        #home .wrapper {
+        margin-left: 29rem;
+        font-size: 25px;
+    }
 }
 
 
