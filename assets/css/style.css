@@ -1533,7 +1533,7 @@ background: url("./assets/images/footer-bg.jpg");
  * responsive for large than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
 
   #home img {
   position: absolute;
