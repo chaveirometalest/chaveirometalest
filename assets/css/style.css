@@ -1535,6 +1535,19 @@ background: url("./assets/images/footer-bg.jpg");
 
 @media (min-width: 992px) {
 
+  #home img {
+  position: absolute;
+}
+  .hero-banner {
+        margin-left: 56rem !important;
+        margin-top: -15rem!important;
+  }
+  #home h1 {
+        font-size: 6rem !important;
+    }
+      #home p {
+        margin-left: -12rem;
+    }
   /**
    * CUSTOM PROPERTY
    */
@@ -3393,21 +3406,6 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
 
 
-@media (max-width: 992px) {
-#home img {
-  position: absolute;
-}
-  .hero-banner {
-        margin-left: 56rem !important;
-        margin-top: -15rem!important;
-  }
-  #home h1 {
-        font-size: 6rem !important;
-    }
-      #home p {
-        margin-left: -12rem;
-    }
-}
 
 
 @media (max-width: 1024px) {
