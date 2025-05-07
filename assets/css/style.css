@@ -1011,7 +1011,7 @@ background: url("./assets/images/footer-bg.jpg");
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
   :root {
     --section-padding: 80px;
   }
@@ -1091,7 +1091,7 @@ background: url("./assets/images/footer-bg.jpg");
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 
 
@@ -1145,7 +1145,7 @@ background: url("./assets/images/footer-bg.jpg");
  * responsive for large than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1282,7 +1282,7 @@ background: url("./assets/images/footer-bg.jpg");
 
   .category-card .card-title { --fs-4: 5.5rem; }
 
-  .category-item { min-width: max-content; }
+  .category-item { max-width: max-content; }
 
   .category-list {
     row-gap: 0;
@@ -1516,7 +1516,7 @@ body.light-mode {
 
 
 .wrapper {
-  width: min(50rem, 100%);
+  width: max(50rem, 100%);
   margin-inline: auto;
   padding-inline: 2.4rem;
 }
@@ -1944,7 +1944,7 @@ body.menu-expanded button path {
 /*===== HOME ===================================*/
 #home {
   height: 100vh;
-  min-height: calc(60rem + var(--nav-height));
+  max-height: calc(60rem + var(--nav-height));
   padding-block: 0;
   background-color: var(--secundary-color);
   display: flex;
@@ -2058,7 +2058,7 @@ body.menu-expanded button path {
 
 #home img {
   width: 30rem;
-  min-width: 14.5rem;
+  max-width: 14.5rem;
   display: block;
   margin-inline: auto;
   filter: contrast(1.2);
@@ -2993,13 +2993,13 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
 
 /*===== RESPONSIVO (DESKTOP) ====================================*/
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   /*===== GERAL =======================================*/
   body {
     overflow: auto;
   }
   .wrapper {
-    width: min(112rem, 100%);
+    width: max(112rem, 100%);
     display: grid;
   }
   section {
@@ -4080,7 +4080,7 @@ body {
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     #home h1 {
         margin-top: -29rem;
@@ -4107,7 +4107,7 @@ body {
 
 }
 
-@media (min-width: 710px) {
+@media (max-width: 710px) {
     #zer{
       
         font-size: 1.2rem ;
@@ -4120,7 +4120,7 @@ body {
         
     }
 }
-@media (min-width: 645px) {
+@media (max-width: 645px) {
     #zer{
       
         font-size: 1.2rem ;
@@ -4133,7 +4133,7 @@ body {
         
     }
 }
-@media (min-width: 511px) {
+@media (max-width: 511px) {
     #home h1 {
         margin-top: -29rem;
         font-size: 3rem ;
@@ -4166,7 +4166,7 @@ body {
  * responsive for larger than 992px screen
  */
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
   /**
    * CUSTOM PROPERTY
@@ -4440,7 +4440,7 @@ body {
  * responsive for large than 1200px screen
  */
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
   /**
    * CUSTOM PROPERTY
@@ -4627,7 +4627,7 @@ body {
  */
 
  
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
  
   /**
    * CUSTOM PROPERTY
@@ -4795,7 +4795,7 @@ body {
 
 #home img {
     width: 30rem;
-    min-width: 14.5rem;
+    max-width: 14.5rem;
     display: block;
     margin-inline: auto;
     filter: contrast(1.2);
